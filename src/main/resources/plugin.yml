@@ -1,0 +1,7 @@
+name: GMCShop
+version: 1.0
+api-version: 1.17
+main: pl.gredierowanie.itemshop.ItemShopPlugin
+commands:
+  itemshop:
+    aliases: [gmcshop, premiumshop, receive]

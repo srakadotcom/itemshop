@@ -1,0 +1,19 @@
+## ok
+
+# Id serwera, uzywane do tego itemshopu
+serverId: 2137
+
+# Czas co jaki beda wysylane informacje do bazy danych (w sekundach)
+statUpdateInterval: 120
+
+# Passy do db
+database:
+  url: "jdbc:mysql://localhost:3306/database"
+  user: "root"
+  password: ""
+
+# Wiadomosci
+messages:
+  item_redeemed: "&aGratulacje, odebrales przemdiot!"
+  internal_error: "&cNie udalo sie wykonac operacji. Skontaktuj sie z administracja."
+  player_not_found: "&cNie znaleziono gracza!" # to jest wysylane przy komendzie /itemshop (nick)
